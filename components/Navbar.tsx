@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { Menu, X, ChevronDown } from "lucide-react";
+import Image from "next/image";
 
 const navItems = [
     { label: "Home", href: "/" },
@@ -55,7 +56,12 @@ export default function Navbar() {
                     className={`text-3xl font-serif tracking-wide ${scrolled ? "text-black" : "text-white"
                         }`}
                 >
-                    ESPI
+                    <Image
+                        src="/logo.svg"
+                        alt="ESPI Logo"
+                        width={150}
+                        height={50}
+                    />
                 </Link>
 
                 {/* Desktop */}
