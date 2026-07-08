@@ -6,14 +6,10 @@ import ScrollIndicator from "./ScrollIndicator";
 
 export default function Hero() {
     return (
-        <section className="relative h-screen overflow-hidden">
+        <section className="relative h-[100svh] min-h-[560px] overflow-hidden">
             <HeroBackground />
-
-            {/* Overlay */}
             <div className="absolute inset-0 bg-black/35 z-10" />
-
             <HeroContent />
-
             <ScrollIndicator />
         </section>
     );
