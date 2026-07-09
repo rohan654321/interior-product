@@ -37,7 +37,7 @@ const process = [
 
 export default function Process() {
     return (
-        <section className="bg-[#111111] text-white py-32 overflow-hidden">
+        <section className="bg-[#191C40] text-white py-32 overflow-hidden">
 
             <div className="max-w-7xl mx-auto px-6">
 

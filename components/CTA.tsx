@@ -5,7 +5,7 @@ import { ArrowRight } from "lucide-react";
 
 export default function CTA() {
     return (
-        <section className="relative overflow-hidden bg-[#111111] py-32 text-white">
+        <section className="relative overflow-hidden bg-[#191C40] py-32 text-white">
 
             {/* Background Pattern */}
             <div className="absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_top_right,#ffffff,transparent_40%)]" />
